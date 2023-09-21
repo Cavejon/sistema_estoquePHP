@@ -1,9 +1,10 @@
 <div class="container">
     <fieldset>
         <form method="GET">
-            <input type="text" name="busca" id="busca"
+            <p class="text-center h5">Digite o nome do produto ou Código do produto</p>
+            <input type="text" name="busca" id="busca" class="container form-control"
                 value="<?php echo (!empty($_GET['busca'])) ? $_GET['busca'] : ''; ?>"
-                placeholder="Digite o código ou nome do produto" style="width:20rem">
+                placeholder="" style="width:20rem">
         </form>
     </fieldset>
     <br>
